@@ -42,7 +42,7 @@ Your app is ready to be deployed!
 - Clone project repository from GitHub
 
 ```
-git clone
+git clone https://github.com/omohemma/riddey-boards.git
 ```
 - Navigate to project root directory
 ```
@@ -58,7 +58,7 @@ npm run start
 ```
 ___
 
-Project Link: https://
+Project Link: https://riddey-boards.netlify.app/
 
 
 

@@ -52,20 +52,9 @@ export const boardFeatureList = style({
 
 globalStyle(`${boardFeatureList} > li`, {
     color: '#8A8C8E',
-    marginBottom: '12px'
+    marginBottom: '12px',
+    paddingLeft :'7px',
 });
-
-// globalStyle(`${boardFeatureList} > li > dd`, {
-//     background: ' #662974',
-//     width: '2rem',
-//     height: '2rem',
-//     borderRadius: '50%',
-//     display: 'inline-block',
-//     lineHeight: '2rem',
-//     color: 'white',
-//     textAlign: 'center',
-//     margin-right:' 0.5rem',
-// });
 
 globalStyle(`${boardFeatureList} > li > span`, {
     fontWeight: 700, fontSize: '14px',
@@ -76,7 +65,6 @@ export const boardPlanLimits = style({
     width: 'inherit',
     textAlign: 'center'
 })
-
 
 globalStyle(`${boardPlanLimits} > h4`, {
     textAlign: 'center',
@@ -116,7 +104,7 @@ export const boardButton = style({
 
 export const boardProgressBar = style({
     appearance: 'none',
-    width: '250px',
+    width: '80%',
     height: '7px',
     border: 'none',
     '::-webkit-progress-bar': {
